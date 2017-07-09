@@ -7,9 +7,9 @@ except ImportError:
 # import os
 # import codecs
 
-from cnab240 import errors
-from cnab240.bancos import bancodobrasil
-from cnab240.tipos import Arquivo
+from cnab import errors
+from cnab.bancos import bancodobrasil
+from cnab.tipos import Arquivo
 from tests.data_bancobrasil import (
     get_banco_brasil_data_from_dict,
     # get_banco_brasil_file_remessa,

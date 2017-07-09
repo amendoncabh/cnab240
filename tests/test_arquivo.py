@@ -7,9 +7,9 @@ except ImportError:
 import os
 import codecs
 
-from cnab240 import errors
-from cnab240.bancos import itau
-from cnab240.tipos import Arquivo
+from cnab import errors
+from cnab.bancos import itau
+from cnab.tipos import Arquivo
 from tests.data_itau import get_itau_data_from_dict, get_itau_file_remessa, \
     ARQS_DIRPATH
 

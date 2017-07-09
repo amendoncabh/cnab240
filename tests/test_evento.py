@@ -4,8 +4,8 @@ try:
 except ImportError:
     import unittest
 
-from cnab240.bancos import itau
-from cnab240.tipos import Evento
+from cnab.bancos import itau
+from cnab.tipos import Evento
 
 
 class TestEvento(unittest.TestCase):

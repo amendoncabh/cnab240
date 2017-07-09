@@ -2,8 +2,8 @@
 import os
 import codecs
 from decimal import Decimal
-from cnab240.bancos import itau
-from cnab240.tipos import Lote, Evento
+from cnab.bancos import itau
+from cnab.tipos import Lote, Evento
 
 TESTS_DIRPATH = os.path.abspath(os.path.dirname(__file__))
 ARQS_DIRPATH = os.path.join(TESTS_DIRPATH, 'arquivos')

@@ -2,7 +2,7 @@
 import os
 import importlib
 
-from cnab240.registro import Registros
+from cnab.registro import Registros
 
 cwd = os.path.abspath(os.path.dirname(__file__))
 nome_bancos = (fname for fname in os.listdir(cwd)

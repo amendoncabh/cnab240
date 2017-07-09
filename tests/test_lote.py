@@ -5,7 +5,7 @@ except ImportError:
     import unittest
 
 
-from cnab240 import errors
+from cnab import errors
 from tests.data_itau import get_itau_data_from_file
 
 

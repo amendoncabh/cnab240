@@ -5,8 +5,8 @@ except ImportError:
     import unittest
 
 from decimal import Decimal
-from cnab240 import errors
-from cnab240.bancos import itau
+from cnab import errors
+from cnab.bancos import itau
 from tests.data_itau import get_itau_data_from_file
 
 
