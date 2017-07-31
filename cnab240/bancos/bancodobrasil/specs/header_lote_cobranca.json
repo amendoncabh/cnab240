@@ -77,39 +77,12 @@
       "formato": "num"
     },
 
-    "11.1BB1": {
+    "11.1": {
       "nome": "cedente_convenio",
       "posicao_inicio": 34,
-      "posicao_fim": 42,
-      "formato": "num"
-    },
-
-    "11.1BB2": {
-      "nome": "cedente_cobranca",
-      "posicao_inicio": 43,
-      "posicao_fim": 46,
-      "formato": "num"
-    },
-
-    "11.1BB3": {
-      "nome": "cedente_carteira",
-      "posicao_inicio": 47,
-      "posicao_fim": 48,
-      "formato": "num"
-    },
-
-    "11.1BB4": {
-      "nome": "cedente_variacao_carteira",
-      "posicao_inicio": 49,
-      "posicao_fim": 51,
-      "formato": "num"
-    },
-
-    "11.1BB5": {
-      "nome": "cedente_identifica_remessa",
-      "posicao_inicio": 52,
       "posicao_fim": 53,
-      "formato": "alfa"
+      "formato": "alfa",
+      "default": ""
     },
 
     "12.1": {
@@ -120,7 +93,7 @@
     },
 
     "13.1": {
-      "nome": "cedente_agencia_DV",
+      "nome": "cedente_agencia_dv",
       "posicao_inicio": 59,
       "posicao_fim": 59,
       "formato": "alfa"
